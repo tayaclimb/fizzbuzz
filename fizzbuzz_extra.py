@@ -20,7 +20,7 @@ while True:
             fizzbuzz_block()
         print ('All done')
         break
-    except:
+    except ValueError: 
         print('Please enter a numeric value!')
         continue
     
